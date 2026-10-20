@@ -1,4 +1,26 @@
+# Zig build caches and generated output (including nested consumer builds).
 .zig-cache/
 zig-out/
 zig-pkg/
 *.o
+
+# Python tooling caches.
+__pycache__/
+*.py[cod]
+
+# Local editor and operating-system files.
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local credentials and agent configuration.
+/.aws/
+/.agents/
+/.codex/
+.env
+.env.*
+!.env.example

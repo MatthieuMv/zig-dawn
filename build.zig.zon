@@ -1,0 +1,11 @@
+.{
+    .name = .zig_sdl3,
+    .fingerprint = 0xa9e215ccf84a4113,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.17.0",
+    .paths = .{
+        "build.zig",       "build.zig.zon",  "src",               "build_support",   "tools",
+        "README.md",       "docs",           "upstream.lock.tsv", "examples",        "tests/graphics.zig",
+        "tests/image.zig", "tests/fixtures", "tests/ttf.zig",     "tests/mixer.zig",
+    },
+}
